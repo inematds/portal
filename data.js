@@ -1,99 +1,75 @@
-// Dados dos cursos e plataformas
+// Dados dos cursos e plataformas INEMA
 const platformsData = [
     {
         id: 1,
-        title: "Moodle INEMA",
-        description: "Plataforma principal de cursos e conteúdos educacionais do INEMA. Acesse materiais, atividades e avaliações.",
-        icon: "📚",
-        tags: ["EAD", "Cursos", "Principal"],
-        url: "#"
+        title: "ATIA",
+        description: "Oportunidades Digitais com IA - Explore o mundo da Inteligência Artificial e suas aplicações práticas.",
+        icon: "🤖",
+        tags: ["IA", "Oportunidades", "Digital"],
+        url: "https://inematds.github.io/ATIA/"
     },
     {
         id: 2,
-        title: "Biblioteca Digital",
-        description: "Acervo completo de livros, artigos e materiais de referência para pesquisa e estudo.",
-        icon: "📖",
-        tags: ["Pesquisa", "Livros", "Artigos"],
-        url: "#"
+        title: "BMAD Academy",
+        description: "Academia de desenvolvimento com metodologia BMAD - Aprenda boas práticas de desenvolvimento.",
+        icon: "🎓",
+        tags: ["Desenvolvimento", "Metodologia", "Academia"],
+        url: "https://inematds.github.io/BMAD-Academy/"
     },
     {
         id: 3,
-        title: "Laboratório Virtual",
-        description: "Ambiente de práticas e experimentação com ferramentas e simuladores interativos.",
-        icon: "🔬",
-        tags: ["Prática", "Laboratório", "Simulação"],
-        url: "#"
+        title: "FDB",
+        description: "Formação em Desenvolvimento de Base - Fundamentos essenciais para desenvolvedores.",
+        icon: "💻",
+        tags: ["Desenvolvimento", "Fundamentos", "Base"],
+        url: "https://inematds.github.io/FDB/"
     },
     {
         id: 4,
-        title: "Ambiente Colaborativo",
-        description: "Espaço para projetos em grupo, discussões e compartilhamento de conhecimento entre alunos.",
-        icon: "👥",
-        tags: ["Colaboração", "Projetos", "Comunidade"],
-        url: "#"
+        title: "FEA-IA",
+        description: "Formação de Engenheiros de Agentes de IA - Aprenda a criar e gerenciar agentes inteligentes.",
+        icon: "🧠",
+        tags: ["IA", "Agentes", "Engenharia"],
+        url: "https://inematds.github.io/FEA-IA/"
     },
     {
         id: 5,
-        title: "Sistema Acadêmico",
-        description: "Consulte notas, frequência, histórico escolar e documentos acadêmicos.",
-        icon: "🎓",
-        tags: ["Acadêmico", "Notas", "Histórico"],
-        url: "#"
+        title: "FEP",
+        description: "Formação de Engenheiros de Prompts - Domine a arte de criar prompts eficazes para IA.",
+        icon: "✍️",
+        tags: ["Prompts", "IA", "Engenharia"],
+        url: "https://inematds.github.io/FEP/"
     },
     {
         id: 6,
-        title: "Tutoria Online",
-        description: "Agende sessões de tutoria, tire dúvidas e receba orientação personalizada dos professores.",
-        icon: "💬",
-        tags: ["Tutoria", "Suporte", "Dúvidas"],
-        url: "#"
+        title: "FTH",
+        description: "Formação para Treinamento de Humanoides - Capacitação em robótica e interação humano-robô.",
+        icon: "🤖",
+        tags: ["Robótica", "Humanoides", "Treinamento"],
+        url: "https://inematds.github.io/FTH/"
     },
     {
         id: 7,
-        title: "Webconferências",
-        description: "Participe de aulas ao vivo, webinars e eventos educacionais transmitidos online.",
-        icon: "🎥",
-        tags: ["Ao Vivo", "Eventos", "Webinars"],
-        url: "#"
+        title: "Portal INEMA",
+        description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
+        icon: "🌐",
+        tags: ["Portal", "Projetos", "Plataformas"],
+        url: "https://inematds.github.io/portal/"
     },
     {
         id: 8,
-        title: "Avaliações e Provas",
-        description: "Plataforma para realização de avaliações, provas e atividades avaliativas online.",
+        title: "Prompts",
+        description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
-        tags: ["Avaliação", "Provas", "Testes"],
-        url: "#"
+        tags: ["Prompts", "Engenharia", "IA"],
+        url: "https://inematds.github.io/prompts/"
     },
     {
         id: 9,
-        title: "Certificados",
-        description: "Emita e consulte seus certificados de conclusão de cursos e atividades.",
-        icon: "🏆",
-        tags: ["Certificados", "Conclusão", "Documentos"],
-        url: "#"
-    },
-    {
-        id: 10,
-        title: "Suporte Técnico",
-        description: "Central de ajuda e suporte técnico para problemas com plataformas e sistemas.",
-        icon: "🛠️",
-        tags: ["Suporte", "Ajuda", "Técnico"],
-        url: "#"
-    },
-    {
-        id: 11,
-        title: "Recursos Multimídia",
-        description: "Biblioteca de vídeos, podcasts, infográficos e outros materiais audiovisuais.",
-        icon: "🎬",
-        tags: ["Vídeos", "Mídia", "Conteúdo"],
-        url: "#"
-    },
-    {
-        id: 12,
-        title: "Fórum de Discussões",
-        description: "Participe de discussões temáticas, compartilhe ideias e aprenda com a comunidade.",
-        icon: "💭",
-        tags: ["Fórum", "Discussão", "Comunidade"],
-        url: "#"
+        title: "VISION",
+        description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
+        icon: "👁️",
+        tags: ["Visão", "IA", "Imagens"],
+        url: "https://inematds.github.io/VISION/"
     }
 ];
