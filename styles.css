@@ -205,6 +205,78 @@ body {
     text-align: left;
 }
 
+/* Recruitment Hero Section */
+.recruitment-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    padding: 4rem 0;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.recruitment-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.recruitment-image {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.recruitment-image:hover {
+    transform: scale(1.02);
+}
+
+.recruitment-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recruitment-text {
+    color: white;
+}
+
+.recruitment-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #0ea5e9 0%, #22d3ee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.recruitment-text p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.recruitment-cta {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #22d3ee;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.recruitment-invitation {
+    font-size: 1.2rem;
+    color: #fbbf24;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.recruitment-invitation strong {
+    color: #fcd34d;
+}
+
 /* Learning Path Section */
 .learning-path-section {
     background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
@@ -659,6 +731,27 @@ body {
 
     .telegram-grid {
         grid-template-columns: 1fr;
+    }
+
+    .recruitment-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .recruitment-text h2 {
+        font-size: 2rem;
+    }
+
+    .recruitment-text p {
+        font-size: 1rem;
+    }
+
+    .recruitment-cta {
+        font-size: 1.15rem;
+    }
+
+    .recruitment-invitation {
+        font-size: 1.05rem;
     }
 
     .learning-path-cards {
