@@ -205,6 +205,153 @@ body {
     text-align: left;
 }
 
+/* Learning Path Section */
+.learning-path-section {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.learning-path-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.learning-path-header h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.learning-path-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.learning-path-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.path-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.path-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    transition: all 0.3s ease;
+}
+
+.path-card-1::before {
+    background: linear-gradient(90deg, #f59e0b 0%, #f97316 100%);
+}
+
+.path-card-2::before {
+    background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+}
+
+.path-card-3::before {
+    background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.path-card-4::before {
+    background: linear-gradient(90deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.path-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.path-card-1:hover {
+    border-color: #f59e0b;
+}
+
+.path-card-2:hover {
+    border-color: #10b981;
+}
+
+.path-card-3:hover {
+    border-color: #3b82f6;
+}
+
+.path-card-4:hover {
+    border-color: #8b5cf6;
+}
+
+.path-number {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.path-card-1 .path-number {
+    background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+}
+
+.path-card-2 .path-number {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.path-card-3 .path-number {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.path-card-4 .path-number {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.path-card h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.path-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.learning-path-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.learning-path-footer p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 /* Social Media Section */
 .social-section {
     background: white;
@@ -512,6 +659,27 @@ body {
 
     .telegram-grid {
         grid-template-columns: 1fr;
+    }
+
+    .learning-path-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .learning-path-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .learning-path-header p {
+        font-size: 1rem;
+    }
+
+    .path-card {
+        padding: 1.5rem;
+    }
+
+    .path-card h4 {
+        font-size: 1.25rem;
     }
 
     .social-platforms {
