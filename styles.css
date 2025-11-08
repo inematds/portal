@@ -254,6 +254,12 @@ body {
     align-items: center;
 }
 
+.recruitment-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .recruitment-image {
     border-radius: 16px;
     overflow: hidden;
@@ -272,6 +278,21 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.recruitment-image-caption {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #fbbf24;
+    text-align: center;
+    padding: 1.25rem;
+    background: rgba(251, 191, 36, 0.1);
+    border-radius: 12px;
+    border: 2px solid rgba(251, 191, 36, 0.3);
+}
+
+.recruitment-image-caption strong {
+    color: #fcd34d;
 }
 
 .recruitment-text {
@@ -302,18 +323,6 @@ body {
     color: #22d3ee;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.recruitment-invitation {
-    font-size: 1.2rem;
-    color: #fbbf24;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.recruitment-invitation strong {
-    color: #fcd34d;
 }
 
 /* Learning Path Section */
@@ -820,8 +829,9 @@ body {
         font-size: 1.15rem;
     }
 
-    .recruitment-invitation {
-        font-size: 1.05rem;
+    .recruitment-image-caption {
+        font-size: 1rem;
+        padding: 1rem;
     }
 
     .learning-path-cards {
