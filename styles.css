@@ -913,3 +913,36 @@ body {
 .empty-state-text {
     font-size: 1.25rem;
 }
+
+/* Video Section */
+.video-section {
+    padding: 4rem 0;
+    background: var(--bg-secondary);
+}
+
+.video-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+}
+
+.featured-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #000;
+}
+
+@media (max-width: 768px) {
+    .video-section {
+        padding: 2rem 0;
+    }
+
+    .video-wrapper {
+        border-radius: 12px;
+    }
+}
