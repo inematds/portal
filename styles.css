@@ -6,18 +6,27 @@
 }
 
 :root {
-    --primary-color: #0284c7;
-    --primary-hover: #0369a1;
-    --secondary-color: #475569;
-    --bg-color: #f1f5f9;
-    --card-bg: #ffffff;
-    --text-primary: #0f172a;
-    --text-secondary: #64748b;
-    --border-color: #cbd5e1;
-    --accent-dark: #1e293b;
-    --accent-blue: #0ea5e9;
-    --shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.1), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
-    --shadow-hover: 0 20px 25px -5px rgba(15, 23, 42, 0.15), 0 10px 10px -5px rgba(15, 23, 42, 0.08);
+    /* Dark Futuristic Theme */
+    --primary-color: #00d9ff;
+    --primary-hover: #00b8d4;
+    --secondary-color: #8b5cf6;
+    --bg-color: #0a0e27;
+    --bg-secondary: #0f1419;
+    --card-bg: #1a1f3a;
+    --card-hover: #222847;
+    --text-primary: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --border-color: #2d3548;
+    --border-glow: rgba(0, 217, 255, 0.3);
+    --accent-dark: #0a0e27;
+    --accent-cyan: #00d9ff;
+    --accent-purple: #a855f7;
+    --shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 217, 255, 0.1);
+    --shadow-hover: 0 16px 32px rgba(0, 0, 0, 0.6), 0 0 60px rgba(0, 217, 255, 0.2);
+    --shadow-glow: 0 0 20px rgba(0, 217, 255, 0.4), 0 0 40px rgba(0, 217, 255, 0.2);
+    --gradient-primary: linear-gradient(135deg, #00d9ff 0%, #0ea5e9 100%);
+    --gradient-secondary: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+    --gradient-dark: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
 }
 
 body {
@@ -38,11 +47,23 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    background: var(--gradient-dark);
     color: white;
     padding: 3rem 0;
-    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.3);
-    border-bottom: 3px solid var(--primary-color);
+    box-shadow: var(--shadow), 0 4px 0 var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--gradient-primary);
+    box-shadow: 0 0 10px var(--primary-color);
 }
 
 .header-content {
@@ -53,6 +74,12 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(0, 217, 255, 0.5);
+    filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.3));
 }
 
 .tagline {
@@ -62,9 +89,10 @@ body {
 
 /* Featured Banner */
 .featured-banner {
-    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    background: var(--bg-secondary);
     padding: 2rem 0;
     box-shadow: var(--shadow);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .featured-link {
@@ -77,16 +105,18 @@ body {
     display: flex;
     align-items: center;
     gap: 2rem;
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--card-bg);
     padding: 2rem;
     border-radius: 16px;
+    border: 2px solid var(--border-color);
     transition: all 0.3s ease;
 }
 
 .featured-content:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-hover);
-    background: white;
+    background: var(--card-hover);
+    border-color: var(--primary-color);
 }
 
 .featured-logo {
@@ -96,10 +126,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: var(--bg-secondary);
     border-radius: 16px;
     padding: 1rem;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+    border: 2px solid var(--border-color);
+    box-shadow: var(--shadow);
 }
 
 .featured-logo img {
@@ -117,10 +148,11 @@ body {
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
+    background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    filter: drop-shadow(0 0 10px rgba(0, 217, 255, 0.3));
 }
 
 .featured-description {
@@ -129,18 +161,20 @@ body {
 }
 
 .featured-badge {
-    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    background: var(--gradient-primary);
     color: white;
     padding: 1rem 2rem;
     border-radius: 12px;
     font-weight: 600;
     white-space: nowrap;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+    box-shadow: var(--shadow-glow);
+    border: 1px solid var(--primary-color);
 }
 
 .featured-content:hover .featured-badge {
     transform: translateX(8px);
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.6);
 }
 
 /* Telegram Groups Section */
@@ -177,7 +211,7 @@ body {
     align-items: center;
     gap: 0.75rem;
     padding: 1rem 1.25rem;
-    background: white;
+    background: var(--card-bg);
     border: 2px solid var(--border-color);
     border-radius: 12px;
     text-decoration: none;
@@ -188,11 +222,11 @@ body {
 }
 
 .telegram-btn:hover {
-    border-color: #0088cc;
-    background: #0088cc;
-    color: white;
+    border-color: var(--primary-color);
+    background: var(--card-hover);
+    color: var(--primary-color);
     transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-glow);
 }
 
 .telegram-icon {
@@ -207,9 +241,10 @@ body {
 
 /* Recruitment Hero Section */
 .recruitment-hero {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: var(--bg-secondary);
     padding: 4rem 0;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    box-shadow: 0 2px 0 var(--primary-color), var(--shadow);
 }
 
 .recruitment-content {
@@ -222,12 +257,15 @@ body {
 .recruitment-image {
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    border: 2px solid var(--border-color);
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
 }
 
 .recruitment-image:hover {
     transform: scale(1.02);
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-glow);
 }
 
 .recruitment-image img {
@@ -244,10 +282,11 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #0ea5e9 0%, #22d3ee 100%);
+    background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.5));
 }
 
 .recruitment-text p {
@@ -279,7 +318,7 @@ body {
 
 /* Learning Path Section */
 .learning-path-section {
-    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    background: var(--bg-color);
     padding: 3rem 0;
     border-bottom: 1px solid var(--border-color);
 }
@@ -309,12 +348,12 @@ body {
 }
 
 .path-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 16px;
     padding: 2rem;
     text-align: center;
     box-shadow: var(--shadow);
-    border: 3px solid transparent;
+    border: 2px solid var(--border-color);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -349,22 +388,27 @@ body {
 .path-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-hover);
+    background: var(--card-hover);
 }
 
 .path-card-1:hover {
     border-color: #f59e0b;
+    box-shadow: 0 0 30px rgba(245, 158, 11, 0.4), var(--shadow-hover);
 }
 
 .path-card-2:hover {
     border-color: #10b981;
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.4), var(--shadow-hover);
 }
 
 .path-card-3:hover {
     border-color: #3b82f6;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.4), var(--shadow-hover);
 }
 
 .path-card-4:hover {
     border-color: #8b5cf6;
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.4), var(--shadow-hover);
 }
 
 .path-number {
@@ -413,8 +457,9 @@ body {
 .learning-path-footer {
     text-align: center;
     padding: 1.5rem;
-    background: white;
+    background: var(--card-bg);
     border-radius: 12px;
+    border: 2px solid var(--border-color);
     box-shadow: var(--shadow);
 }
 
@@ -426,7 +471,7 @@ body {
 
 /* Social Media Section */
 .social-section {
-    background: white;
+    background: var(--bg-secondary);
     padding: 3rem 0;
     border-bottom: 1px solid var(--border-color);
 }
@@ -455,7 +500,7 @@ body {
 }
 
 .social-platform {
-    background: var(--bg-color);
+    background: var(--card-bg);
     border-radius: 16px;
     padding: 2rem;
     border: 2px solid var(--border-color);
@@ -464,7 +509,8 @@ body {
 
 .social-platform:hover {
     border-color: var(--primary-color);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-glow);
+    background: var(--card-hover);
 }
 
 .platform-header {
@@ -497,7 +543,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.875rem 1.5rem;
-    background: white;
+    background: var(--bg-secondary);
     border: 2px solid var(--border-color);
     border-radius: 10px;
     text-decoration: none;
@@ -544,6 +590,7 @@ body {
 .main {
     flex: 1;
     padding: 3rem 0;
+    background: var(--bg-color);
 }
 
 /* Search Section */
@@ -558,13 +605,19 @@ body {
     border: 2px solid var(--border-color);
     border-radius: 12px;
     background: var(--card-bg);
+    color: var(--text-primary);
     transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: var(--text-secondary);
 }
 
 .search-input:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    box-shadow: var(--shadow-glow);
+    background: var(--card-hover);
 }
 
 /* Cards Grid */
@@ -593,7 +646,7 @@ body {
     padding: 2rem;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -606,14 +659,16 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #0284c7 0%, #0ea5e9 100%);
+    background: var(--gradient-primary);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: var(--shadow-hover);
+    box-shadow: var(--shadow-glow);
+    background: var(--card-hover);
+    border-color: var(--primary-color);
 }
 
 .card:hover::before {
@@ -623,14 +678,15 @@ body {
 .card-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
+    background: var(--gradient-primary);
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
+    box-shadow: var(--shadow-glow);
+    border: 1px solid var(--primary-color);
 }
 
 .card-title {
@@ -654,12 +710,13 @@ body {
 }
 
 .tag {
-    background: var(--bg-color);
+    background: var(--bg-secondary);
     color: var(--text-secondary);
     padding: 0.25rem 0.75rem;
     border-radius: 6px;
     font-size: 0.85rem;
     font-weight: 500;
+    border: 1px solid var(--border-color);
 }
 
 .card-link {
@@ -688,12 +745,25 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: var(--gradient-dark);
     color: white;
     text-align: center;
     padding: 2rem 0;
     margin-top: auto;
-    border-top: 3px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+    box-shadow: 0 -2px 0 var(--primary-color);
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--gradient-primary);
+    box-shadow: 0 0 10px var(--primary-color);
 }
 
 /* Responsive Design */
