@@ -71,5 +71,21 @@ const platformsData = [
         icon: "👁️",
         tags: ["Visão", "IA", "Imagens"],
         url: "https://inematds.github.io/VISION/"
+    },
+    {
+        id: 10,
+        title: "GitHub",
+        description: "Repositórios e projetos INEMA no GitHub - Código aberto e colaboração.",
+        icon: "🐙",
+        tags: ["GitHub", "Código", "Colaboração"],
+        url: "https://inematds.github.io/github/"
+    },
+    {
+        id: 11,
+        title: "Robot",
+        description: "Plataforma Robot - Robótica e automação inteligente.",
+        icon: "🤖",
+        tags: ["Robótica", "Automação", "Robot"],
+        url: "https://inematds.github.io/robot/"
     }
 ];
