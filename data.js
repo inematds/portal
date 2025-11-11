@@ -87,5 +87,13 @@ const platformsData = [
         icon: "🤖",
         tags: ["Robótica", "Automação", "Robot"],
         url: "https://inematds.github.io/robot/"
+    },
+    {
+        id: 12,
+        title: "SuperProf",
+        description: "SuperProf - Formação avançada para professores e educadores do futuro.",
+        icon: "🎓",
+        tags: ["Educação", "Professores", "Formação"],
+        url: "https://inematds.github.io/SuperProf/"
     }
 ];
