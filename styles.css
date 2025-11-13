@@ -914,6 +914,122 @@ body {
     font-size: 1.25rem;
 }
 
+/* GitHub Repositories Section */
+.github-section {
+    background: var(--bg-color);
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.github-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.github-header h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.github-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.github-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.github-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.github-card:hover {
+    transform: translateY(-4px);
+    border-color: #6e5494;
+    background: var(--card-hover);
+    box-shadow: 0 0 30px rgba(110, 84, 148, 0.3), var(--shadow-hover);
+}
+
+.github-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.github-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.github-card h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.github-description {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.github-stats {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.github-stars {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.github-footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.github-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.github-view-all:hover {
+    background: var(--card-hover);
+    border-color: #6e5494;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(110, 84, 148, 0.3);
+}
+
 /* Video Section */
 .video-section {
     padding: 4rem 0;
@@ -938,6 +1054,14 @@ body {
 }
 
 @media (max-width: 768px) {
+    .github-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .github-header h3 {
+        font-size: 1.5rem;
+    }
+
     .video-section {
         padding: 2rem 0;
     }

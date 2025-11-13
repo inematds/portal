@@ -95,5 +95,21 @@ const platformsData = [
         icon: "🎓",
         tags: ["Educação", "Professores", "Formação"],
         url: "https://inematds.github.io/SuperProf/"
+    },
+    {
+        id: 13,
+        title: "FEI",
+        description: "Formação em Engenharia de Inteligência - Desenvolvimento de soluções inteligentes com IA.",
+        icon: "🧪",
+        tags: ["IA", "Engenharia", "Inteligência"],
+        url: "https://inematds.github.io/FEI/"
+    },
+    {
+        id: 14,
+        title: "FTD",
+        description: "Formação Técnica Digital - Capacitação técnica para o mundo digital e tecnológico.",
+        icon: "⚙️",
+        tags: ["Técnico", "Digital", "Tecnologia"],
+        url: "https://inematds.github.io/FTD/"
     }
 ];
