@@ -111,5 +111,13 @@ const platformsData = [
         icon: "⚙️",
         tags: ["Técnico", "Digital", "Tecnologia"],
         url: "https://inematds.github.io/FTD/"
+    },
+    {
+        id: 15,
+        title: "FETD",
+        description: "Formação em Engenharia de Treinamento de Dados - Especialização em preparação e qualidade de dados para IA.",
+        icon: "📊",
+        tags: ["Dados", "Engenharia", "Treinamento"],
+        url: "https://inematds.github.io/FETD/"
     }
 ];
