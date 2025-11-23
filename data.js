@@ -83,9 +83,9 @@ const platformsData = [
     {
         id: 11,
         title: "HG1",
-        description: "Curso HG1 - Nova formação disponível no INEMA.",
-        icon: "🎯",
-        tags: ["Curso", "Formação", "HG1"],
+        description: "Academias dos Humanoides - Formação especializada em robótica humanoide e interação avançada.",
+        icon: "🤖",
+        tags: ["Humanoides", "Academia", "Robótica"],
         url: "https://inematds.github.io/HG1"
     },
     {
