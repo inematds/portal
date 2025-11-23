@@ -119,5 +119,13 @@ const platformsData = [
         icon: "📊",
         tags: ["Dados", "Engenharia", "Treinamento"],
         url: "https://inematds.github.io/FETD/"
+    },
+    {
+        id: 16,
+        title: "HG1",
+        description: "Curso HG1 - Nova formação disponível no INEMA.",
+        icon: "🎯",
+        tags: ["Curso", "Formação", "HG1"],
+        url: "https://inematds.github.io/HG1"
     }
 ];
