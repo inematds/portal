@@ -58,6 +58,14 @@ const platformsData = [
     },
     {
         id: 8,
+        title: "FDF",
+        description: "Formação de Designer do Futuro - Desenvolva competências de design para a era digital.",
+        icon: "🎨",
+        tags: ["Design", "Futuro", "Criatividade"],
+        url: "https://inematds.github.io/FDF"
+    },
+    {
+        id: 9,
         title: "FTD",
         description: "Formação Técnica Digital - Capacitação técnica para o mundo digital e tecnológico.",
         icon: "⚙️",
@@ -65,7 +73,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTD/"
     },
     {
-        id: 9,
+        id: 10,
         title: "FTH",
         description: "Formação para Treinamento de Humanoides - Capacitação em robótica e interação humano-robô.",
         icon: "🤖",
@@ -73,7 +81,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTH/"
     },
     {
-        id: 10,
+        id: 11,
         title: "GitHub",
         description: "Repositórios e projetos INEMA no GitHub - Código aberto e colaboração.",
         icon: "🐙",
@@ -81,7 +89,7 @@ const platformsData = [
         url: "https://inematds.github.io/github/"
     },
     {
-        id: 11,
+        id: 12,
         title: "HG1",
         description: "Academias dos Humanoides - Formação especializada em robótica humanoide e interação avançada.",
         icon: "🤖",
@@ -89,7 +97,7 @@ const platformsData = [
         url: "https://inematds.github.io/HG1"
     },
     {
-        id: 12,
+        id: 13,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -97,7 +105,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 13,
+        id: 14,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -105,7 +113,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 14,
+        id: 15,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -113,7 +121,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 15,
+        id: 16,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -121,7 +129,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 16,
+        id: 17,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
