@@ -98,6 +98,22 @@ const platformsData = [
     },
     {
         id: 13,
+        title: "N8Nb",
+        description: "Fundamentos de N8N - Aprenda os fundamentos da automação com N8N.",
+        icon: "🔗",
+        tags: ["Automação", "N8N", "Fundamentos"],
+        url: "https://inematds.github.io/N8Nb"
+    },
+    {
+        id: 14,
+        title: "N8Np",
+        description: "N8N Avançado - Domine técnicas avançadas de automação com N8N.",
+        icon: "⚡",
+        tags: ["Automação", "N8N", "Avançado"],
+        url: "https://inematds.github.io/N8Np"
+    },
+    {
+        id: 15,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -105,7 +121,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 14,
+        id: 16,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -113,7 +129,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 15,
+        id: 17,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -121,7 +137,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 16,
+        id: 18,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -129,7 +145,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 17,
+        id: 19,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
