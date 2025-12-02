@@ -114,6 +114,22 @@ const platformsData = [
     },
     {
         id: 15,
+        title: "Playbook",
+        description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
+        icon: "📖",
+        tags: ["Desenvolvimento", "Guia", "Metodologia"],
+        url: "https://inematds.github.io/Playbook/"
+    },
+    {
+        id: 16,
+        title: "Playbook-IA",
+        description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
+        icon: "🎯",
+        tags: ["IA", "Consultoria", "Especialização"],
+        url: "https://inematds.github.io/Playbook-IA/"
+    },
+    {
+        id: 17,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -121,7 +137,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 16,
+        id: 18,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -129,7 +145,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 17,
+        id: 19,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -137,7 +153,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 18,
+        id: 20,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -145,7 +161,15 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 19,
+        id: 21,
+        title: "TDS",
+        description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
+        icon: "🌱",
+        tags: ["Transformação Digital", "Sustentabilidade", "Inovação"],
+        url: "https://inematds.github.io/TDS/"
+    },
+    {
+        id: 22,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
