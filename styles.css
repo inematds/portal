@@ -144,15 +144,16 @@ body {
     justify-content: center;
     background: var(--bg-secondary);
     border-radius: 16px;
-    padding: 1.25rem;
+    padding: 0;
     border: 2px solid var(--border-color);
     box-shadow: var(--shadow);
+    overflow: hidden;
 }
 
 .featured-logo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .featured-text {
