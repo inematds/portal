@@ -175,5 +175,13 @@ const platformsData = [
         icon: "👁️",
         tags: ["Visão", "IA", "Imagens"],
         url: "https://inematds.github.io/VISION/"
+    },
+    {
+        id: 23,
+        title: "TikTok Shop",
+        description: "TikTok Shop - Aprenda a vender e monetizar na plataforma TikTok Shop.",
+        icon: "🛒",
+        tags: ["TikTok", "E-commerce", "Vendas"],
+        url: "https://inematds.github.io/tiktokshop"
     }
 ];
