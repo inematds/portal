@@ -26,38 +26,6 @@ const platformsData = [
     },
     {
         id: 4,
-        title: "FEA-IA",
-        description: "Formação de Engenheiros de Agentes de IA - Aprenda a criar e gerenciar agentes inteligentes.",
-        icon: "🧠",
-        tags: ["IA", "Agentes", "Engenharia"],
-        url: "https://inematds.github.io/FEA-IA/"
-    },
-    {
-        id: 5,
-        title: "FEI",
-        description: "Formação em Engenharia de Inteligência - Desenvolvimento de soluções inteligentes com IA.",
-        icon: "🧪",
-        tags: ["IA", "Engenharia", "Inteligência"],
-        url: "https://inematds.github.io/FEI/"
-    },
-    {
-        id: 6,
-        title: "FEP",
-        description: "Formação de Engenheiros de Prompts - Domine a arte de criar prompts eficazes para IA.",
-        icon: "✍️",
-        tags: ["Prompts", "IA", "Engenharia"],
-        url: "https://inematds.github.io/FEP/"
-    },
-    {
-        id: 7,
-        title: "FETD",
-        description: "Formação em Engenharia de Treinamento de Dados - Especialização em preparação e qualidade de dados para IA.",
-        icon: "📊",
-        tags: ["Dados", "Engenharia", "Treinamento"],
-        url: "https://inematds.github.io/FETD/"
-    },
-    {
-        id: 8,
         title: "FDF",
         description: "Formação de Designer do Futuro - Desenvolva competências de design para a era digital.",
         icon: "🎨",
@@ -65,7 +33,47 @@ const platformsData = [
         url: "https://inematds.github.io/FDF"
     },
     {
+        id: 5,
+        title: "FEA-IA",
+        description: "Formação de Engenheiros de Agentes de IA - Aprenda a criar e gerenciar agentes inteligentes.",
+        icon: "🧠",
+        tags: ["IA", "Agentes", "Engenharia"],
+        url: "https://inematds.github.io/FEA-IA/"
+    },
+    {
+        id: 6,
+        title: "FEI",
+        description: "Formação em Engenharia de Inteligência - Desenvolvimento de soluções inteligentes com IA.",
+        icon: "🧪",
+        tags: ["IA", "Engenharia", "Inteligência"],
+        url: "https://inematds.github.io/FEI/"
+    },
+    {
+        id: 7,
+        title: "FEP",
+        description: "Formação de Engenheiros de Prompts - Domine a arte de criar prompts eficazes para IA.",
+        icon: "✍️",
+        tags: ["Prompts", "IA", "Engenharia"],
+        url: "https://inematds.github.io/FEP/"
+    },
+    {
+        id: 8,
+        title: "FETD",
+        description: "Formação em Engenharia de Treinamento de Dados - Especialização em preparação e qualidade de dados para IA.",
+        icon: "📊",
+        tags: ["Dados", "Engenharia", "Treinamento"],
+        url: "https://inematds.github.io/FETD/"
+    },
+    {
         id: 9,
+        title: "FIA2026",
+        description: "Formação em Automações com IA 2026 - Aprenda a criar automações inteligentes com IA.",
+        icon: "⚡",
+        tags: ["IA", "Automação", "2026"],
+        url: "https://inematds.github.io/FIA2026/"
+    },
+    {
+        id: 10,
         title: "FTD",
         description: "Formação Técnica Digital - Capacitação técnica para o mundo digital e tecnológico.",
         icon: "⚙️",
@@ -73,7 +81,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTD/"
     },
     {
-        id: 10,
+        id: 11,
         title: "FTH",
         description: "Formação para Treinamento de Humanoides - Capacitação em robótica e interação humano-robô.",
         icon: "🤖",
@@ -81,7 +89,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTH/"
     },
     {
-        id: 11,
+        id: 12,
         title: "GitHub",
         description: "Repositórios e projetos INEMA no GitHub - Código aberto e colaboração.",
         icon: "🐙",
@@ -89,7 +97,7 @@ const platformsData = [
         url: "https://inematds.github.io/github/"
     },
     {
-        id: 12,
+        id: 13,
         title: "HG1",
         description: "Academias dos Humanoides - Formação especializada em robótica humanoide e interação avançada.",
         icon: "🤖",
@@ -97,7 +105,7 @@ const platformsData = [
         url: "https://inematds.github.io/HG1"
     },
     {
-        id: 13,
+        id: 14,
         title: "N8Nb",
         description: "Fundamentos de N8N - Aprenda os fundamentos da automação com N8N.",
         icon: "🔗",
@@ -105,7 +113,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Nb"
     },
     {
-        id: 14,
+        id: 15,
         title: "N8Np",
         description: "N8N Avançado - Domine técnicas avançadas de automação com N8N.",
         icon: "⚡",
@@ -113,7 +121,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Np"
     },
     {
-        id: 15,
+        id: 16,
         title: "Playbook",
         description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
         icon: "📖",
@@ -121,7 +129,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook/"
     },
     {
-        id: 16,
+        id: 17,
         title: "Playbook-IA",
         description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
         icon: "🎯",
@@ -129,7 +137,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook-IA/"
     },
     {
-        id: 17,
+        id: 18,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -137,7 +145,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 18,
+        id: 19,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -145,7 +153,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 19,
+        id: 20,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -153,7 +161,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 20,
+        id: 21,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -161,20 +169,12 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 21,
+        id: 22,
         title: "TDS",
         description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
         icon: "🌱",
         tags: ["Transformação Digital", "Sustentabilidade", "Inovação"],
         url: "https://inematds.github.io/TDS/"
-    },
-    {
-        id: 22,
-        title: "VISION",
-        description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
-        icon: "👁️",
-        tags: ["Visão", "IA", "Imagens"],
-        url: "https://inematds.github.io/VISION/"
     },
     {
         id: 23,
@@ -183,5 +183,13 @@ const platformsData = [
         icon: "🛒",
         tags: ["TikTok", "E-commerce", "Vendas"],
         url: "https://inematds.github.io/tiktokshop"
+    },
+    {
+        id: 24,
+        title: "VISION",
+        description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
+        icon: "👁️",
+        tags: ["Visão", "IA", "Imagens"],
+        url: "https://inematds.github.io/VISION/"
     }
 ];
