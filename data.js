@@ -122,7 +122,7 @@ const platformsData = [
     },
     {
         id: 16,
-        title: "N8Nb",
+        title: "N8Nb - Fundamentos N8N",
         description: "Fundamentos de N8N - Aprenda os fundamentos da automação com N8N.",
         icon: "🔗",
         tags: ["Automação", "N8N", "Fundamentos"],
