@@ -138,7 +138,7 @@ const platformsData = [
     },
     {
         id: 18,
-        title: "Playbook",
+        title: "Playbook - Formação Consultor IA - Inglês",
         description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
         icon: "📖",
         tags: ["Desenvolvimento", "Guia", "Metodologia"],
