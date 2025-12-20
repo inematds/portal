@@ -114,7 +114,7 @@ const platformsData = [
     },
     {
         id: 15,
-        title: "HG1",
+        title: "HG1 - Academia dos Humanoides G1",
         description: "Academias dos Humanoides - Formação especializada em robótica humanoide e interação avançada.",
         icon: "🤖",
         tags: ["Humanoides", "Academia", "Robótica"],
