@@ -66,7 +66,7 @@ const platformsData = [
     },
     {
         id: 9,
-        title: "FEP",
+        title: "FEP - Engenharia de Prompts",
         description: "Formação de Engenheiros de Prompts - Domine a arte de criar prompts eficazes para IA.",
         icon: "✍️",
         tags: ["Prompts", "IA", "Engenharia"],
