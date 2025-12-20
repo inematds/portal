@@ -98,7 +98,7 @@ const platformsData = [
     },
     {
         id: 13,
-        title: "FTH",
+        title: "FTH - Treinamento de Humanoides",
         description: "Formação para Treinamento de Humanoides - Capacitação em robótica e interação humano-robô.",
         icon: "🤖",
         tags: ["Robótica", "Humanoides", "Treinamento"],
