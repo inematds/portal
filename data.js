@@ -58,7 +58,7 @@ const platformsData = [
     },
     {
         id: 8,
-        title: "FEI",
+        title: "FEI - Engenharia da Intenção",
         description: "Formação em Engenharia de Inteligência - Desenvolvimento de soluções inteligentes com IA.",
         icon: "🧪",
         tags: ["IA", "Engenharia", "Inteligência"],
