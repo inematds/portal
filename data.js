@@ -50,7 +50,7 @@ const platformsData = [
     },
     {
         id: 7,
-        title: "FEA-IA",
+        title: "FEA-IA - Engenharia de Agentes",
         description: "Formação de Engenheiros de Agentes de IA - Aprenda a criar e gerenciar agentes inteligentes.",
         icon: "🧠",
         tags: ["IA", "Agentes", "Engenharia"],
