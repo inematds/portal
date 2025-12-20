@@ -74,7 +74,7 @@ const platformsData = [
     },
     {
         id: 10,
-        title: "FETD",
+        title: "FETD - Engenharia de Treinamentos de Dados",
         description: "Formação em Engenharia de Treinamento de Dados - Especialização em preparação e qualidade de dados para IA.",
         icon: "📊",
         tags: ["Dados", "Engenharia", "Treinamento"],
