@@ -146,7 +146,7 @@ const platformsData = [
     },
     {
         id: 19,
-        title: "Playbook-IA",
+        title: "Playbook-IA - Formação de Consultoria IA",
         description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
         icon: "🎯",
         tags: ["IA", "Consultoria", "Especialização"],
