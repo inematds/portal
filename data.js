@@ -2,7 +2,7 @@
 const platformsData = [
     {
         id: 1,
-        title: "ATIA",
+        title: "ATIA - Oportunidades Digitais com IA",
         description: "Oportunidades Digitais com IA - Explore o mundo da Inteligência Artificial e suas aplicações práticas.",
         icon: "🤖",
         tags: ["IA", "Oportunidades", "Digital"],
