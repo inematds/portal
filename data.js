@@ -42,7 +42,7 @@ const platformsData = [
     },
     {
         id: 6,
-        title: "FDF",
+        title: "FDF - Designers do Futuro",
         description: "Formação de Designer do Futuro - Desenvolva competências de design para a era digital.",
         icon: "🎨",
         tags: ["Design", "Futuro", "Criatividade"],
