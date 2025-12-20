@@ -34,7 +34,7 @@ const platformsData = [
     },
     {
         id: 5,
-        title: "FDB",
+        title: "FDB - Fundamentos de Banco de Dados",
         description: "Formação em Desenvolvimento de Base - Fundamentos essenciais para desenvolvedores.",
         icon: "💻",
         tags: ["Desenvolvimento", "Fundamentos", "Base"],
