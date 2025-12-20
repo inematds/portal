@@ -90,7 +90,7 @@ const platformsData = [
     },
     {
         id: 12,
-        title: "FTD",
+        title: "FTD - Formação Transformação Digital",
         description: "Formação Técnica Digital - Capacitação técnica para o mundo digital e tecnológico.",
         icon: "⚙️",
         tags: ["Técnico", "Digital", "Tecnologia"],
