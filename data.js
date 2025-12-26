@@ -138,6 +138,14 @@ const platformsData = [
     },
     {
         id: 18,
+        title: "NanoBanana - SuperCurso Nano Banana",
+        description: "SuperCurso Nano Banana - Curso especial de formação acelerada.",
+        icon: "🍌",
+        tags: ["Curso", "Formação", "Nano"],
+        url: "https://inematds.github.io/NanoBanana/"
+    },
+    {
+        id: 19,
         title: "Playbook - Formação Consultor IA - Inglês",
         description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
         icon: "📖",
@@ -145,7 +153,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook/"
     },
     {
-        id: 19,
+        id: 20,
         title: "Playbook-IA - Formação de Consultoria IA",
         description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
         icon: "🎯",
@@ -153,7 +161,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook-IA/"
     },
     {
-        id: 20,
+        id: 21,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -161,7 +169,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 21,
+        id: 22,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -169,7 +177,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 22,
+        id: 23,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -177,7 +185,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 23,
+        id: 24,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -185,7 +193,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 24,
+        id: 25,
         title: "TDS",
         description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
         icon: "🌱",
@@ -193,7 +201,7 @@ const platformsData = [
         url: "https://inematds.github.io/TDS/"
     },
     {
-        id: 25,
+        id: 26,
         title: "TikTok Shop",
         description: "TikTok Shop - Aprenda a vender e monetizar na plataforma TikTok Shop.",
         icon: "🛒",
@@ -201,7 +209,7 @@ const platformsData = [
         url: "https://inematds.github.io/tiktokshop"
     },
     {
-        id: 26,
+        id: 27,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
