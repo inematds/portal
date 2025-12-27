@@ -186,6 +186,14 @@ const platformsData = [
     },
     {
         id: 24,
+        title: "SHIA - Super Humanos Inteligência Ampliada",
+        description: "Super Humanos Inteligência Ampliada - Formação para potencializar capacidades humanas com IA.",
+        icon: "🧬",
+        tags: ["IA", "Super Humanos", "Inteligência"],
+        url: "https://inematds.github.io/SHIA/"
+    },
+    {
+        id: 25,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -193,7 +201,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 25,
+        id: 26,
         title: "TDS",
         description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
         icon: "🌱",
@@ -201,7 +209,7 @@ const platformsData = [
         url: "https://inematds.github.io/TDS/"
     },
     {
-        id: 26,
+        id: 27,
         title: "TikTok Shop",
         description: "TikTok Shop - Aprenda a vender e monetizar na plataforma TikTok Shop.",
         icon: "🛒",
@@ -209,7 +217,7 @@ const platformsData = [
         url: "https://inematds.github.io/tiktokshop"
     },
     {
-        id: 27,
+        id: 28,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
