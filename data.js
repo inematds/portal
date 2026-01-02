@@ -231,5 +231,13 @@ const platformsData = [
         icon: "👁️",
         tags: ["Visão", "IA", "Imagens"],
         url: "https://inematds.github.io/VISION/"
+    },
+    {
+        id: 30,
+        title: "Dashboard Mastery - Dashboards Profissionais",
+        description: "Supercurso de Dashboards Profissionais - Domine a criação de dashboards com Next.js e React.",
+        icon: "📊",
+        tags: ["Dashboard", "Next.js", "React", "Design"],
+        url: "https://inematds.github.io/dash/"
     }
 ];
