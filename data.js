@@ -138,6 +138,14 @@ const platformsData = [
     },
     {
         id: 18,
+        title: "MAKE - Automações",
+        description: "Curso Completo de Automação - Domine automação no-code com Make e IA.",
+        icon: "⚡",
+        tags: ["Automação", "Make", "No-Code", "IA"],
+        url: "https://inematds.github.io/MAKE/"
+    },
+    {
+        id: 19,
         title: "N8Nb - Fundamentos N8N",
         description: "Fundamentos de N8N - Aprenda os fundamentos da automação com N8N.",
         icon: "🔗",
@@ -145,7 +153,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Nb"
     },
     {
-        id: 19,
+        id: 20,
         title: "N8Np",
         description: "N8N Avançado - Domine técnicas avançadas de automação com N8N.",
         icon: "⚡",
@@ -153,7 +161,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Np"
     },
     {
-        id: 20,
+        id: 21,
         title: "NanoBanana - SuperCurso Nano Banana",
         description: "SuperCurso Nano Banana - Curso especial de formação acelerada.",
         icon: "🍌",
@@ -161,7 +169,7 @@ const platformsData = [
         url: "https://inematds.github.io/NanoBanana/"
     },
     {
-        id: 21,
+        id: 22,
         title: "Playbook - Formação Consultor IA - Inglês",
         description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
         icon: "📖",
@@ -169,7 +177,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook/"
     },
     {
-        id: 22,
+        id: 23,
         title: "Playbook-IA - Formação de Consultoria IA",
         description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
         icon: "🎯",
@@ -177,7 +185,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook-IA/"
     },
     {
-        id: 23,
+        id: 24,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -185,7 +193,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 24,
+        id: 25,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -193,7 +201,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 25,
+        id: 26,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -201,7 +209,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 26,
+        id: 27,
         title: "SHIA - Super Humanos Inteligência Ampliada",
         description: "Super Humanos Inteligência Ampliada - Formação para potencializar capacidades humanas com IA.",
         icon: "🧬",
@@ -209,7 +217,7 @@ const platformsData = [
         url: "https://inematds.github.io/SHIA/"
     },
     {
-        id: 27,
+        id: 28,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -217,7 +225,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 28,
+        id: 29,
         title: "TDS",
         description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
         icon: "🌱",
@@ -225,7 +233,7 @@ const platformsData = [
         url: "https://inematds.github.io/TDS/"
     },
     {
-        id: 29,
+        id: 30,
         title: "TikTok Shop",
         description: "TikTok Shop - Aprenda a vender e monetizar na plataforma TikTok Shop.",
         icon: "🛒",
@@ -233,7 +241,7 @@ const platformsData = [
         url: "https://inematds.github.io/tiktokshop"
     },
     {
-        id: 30,
+        id: 31,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
