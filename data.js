@@ -90,6 +90,14 @@ const platformsData = [
     },
     {
         id: 12,
+        title: "FGMD - Gatilhos Mentais Digitais",
+        description: "Formação em Gatilhos Mentais no Digital - Domine a comunicação estratégica com os 10 gatilhos mentais fundamentais.",
+        icon: "🎯",
+        tags: ["Comunicação", "Marketing", "Gatilhos Mentais"],
+        url: "https://inematds.github.io/FGMD/"
+    },
+    {
+        id: 13,
         title: "FETD - Engenharia de Treinamentos de Dados",
         description: "Formação em Engenharia de Treinamento de Dados - Especialização em preparação e qualidade de dados para IA.",
         icon: "📊",
@@ -97,7 +105,7 @@ const platformsData = [
         url: "https://inematds.github.io/FETD/"
     },
     {
-        id: 13,
+        id: 14,
         title: "FIA2026",
         description: "Formação em Automações com IA 2026 - Aprenda a criar automações inteligentes com IA.",
         icon: "⚡",
@@ -105,7 +113,7 @@ const platformsData = [
         url: "https://inematds.github.io/FIA2026/"
     },
     {
-        id: 14,
+        id: 15,
         title: "FTD - Formação Transformação Digital",
         description: "Formação Técnica Digital - Capacitação técnica para o mundo digital e tecnológico.",
         icon: "⚙️",
@@ -113,7 +121,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTD/"
     },
     {
-        id: 15,
+        id: 16,
         title: "FTH - Treinamento de Humanoides",
         description: "Formação para Treinamento de Humanoides - Capacitação em robótica e interação humano-robô.",
         icon: "🤖",
@@ -121,7 +129,7 @@ const platformsData = [
         url: "https://inematds.github.io/FTH/"
     },
     {
-        id: 16,
+        id: 17,
         title: "GitHub",
         description: "Repositórios e projetos INEMA no GitHub - Código aberto e colaboração.",
         icon: "🐙",
@@ -129,7 +137,7 @@ const platformsData = [
         url: "https://inematds.github.io/github/"
     },
     {
-        id: 17,
+        id: 18,
         title: "HG1 - Academia dos Humanoides G1",
         description: "Academias dos Humanoides - Formação especializada em robótica humanoide e interação avançada.",
         icon: "🤖",
@@ -137,7 +145,7 @@ const platformsData = [
         url: "https://inematds.github.io/HG1"
     },
     {
-        id: 18,
+        id: 19,
         title: "MAKE - Automações",
         description: "Curso Completo de Automação - Domine automação no-code com Make e IA.",
         icon: "⚡",
@@ -145,7 +153,7 @@ const platformsData = [
         url: "https://inematds.github.io/MAKE/"
     },
     {
-        id: 19,
+        id: 20,
         title: "N8Nb - Fundamentos N8N",
         description: "Fundamentos de N8N - Aprenda os fundamentos da automação com N8N.",
         icon: "🔗",
@@ -153,7 +161,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Nb"
     },
     {
-        id: 20,
+        id: 21,
         title: "N8Np",
         description: "N8N Avançado - Domine técnicas avançadas de automação com N8N.",
         icon: "⚡",
@@ -161,7 +169,7 @@ const platformsData = [
         url: "https://inematds.github.io/N8Np"
     },
     {
-        id: 21,
+        id: 22,
         title: "NanoBanana - SuperCurso Nano Banana",
         description: "SuperCurso Nano Banana - Curso especial de formação acelerada.",
         icon: "🍌",
@@ -169,7 +177,7 @@ const platformsData = [
         url: "https://inematds.github.io/NanoBanana/"
     },
     {
-        id: 22,
+        id: 23,
         title: "Playbook - Formação Consultor IA - Inglês",
         description: "Playbook de Desenvolvimento - Guia completo de boas práticas e metodologias de desenvolvimento.",
         icon: "📖",
@@ -177,7 +185,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook/"
     },
     {
-        id: 23,
+        id: 24,
         title: "Playbook-IA - Formação de Consultoria IA",
         description: "Curso de Consultoria em IA - Formação especializada para consultores de Inteligência Artificial.",
         icon: "🎯",
@@ -185,7 +193,7 @@ const platformsData = [
         url: "https://inematds.github.io/Playbook-IA/"
     },
     {
-        id: 24,
+        id: 25,
         title: "Portal INEMA",
         description: "Portal dos Projetos, Sites e Plataformas do INEMA - Acesso centralizado a todos os recursos.",
         icon: "🌐",
@@ -193,7 +201,7 @@ const platformsData = [
         url: "https://inematds.github.io/portal/"
     },
     {
-        id: 25,
+        id: 26,
         title: "Prompts",
         description: "Formação de Engenheiros de Prompts - Técnicas avançadas de engenharia de prompts para IA.",
         icon: "📝",
@@ -201,7 +209,7 @@ const platformsData = [
         url: "https://inematds.github.io/prompts/"
     },
     {
-        id: 26,
+        id: 27,
         title: "Robot",
         description: "Plataforma Robot - Robótica e automação inteligente.",
         icon: "🤖",
@@ -209,7 +217,7 @@ const platformsData = [
         url: "https://inematds.github.io/robot/"
     },
     {
-        id: 27,
+        id: 28,
         title: "SHIA - Super Humanos Inteligência Ampliada",
         description: "Super Humanos Inteligência Ampliada - Formação para potencializar capacidades humanas com IA.",
         icon: "🧬",
@@ -217,7 +225,7 @@ const platformsData = [
         url: "https://inematds.github.io/SHIA/"
     },
     {
-        id: 28,
+        id: 29,
         title: "SuperProf",
         description: "SuperProf - Formação avançada para professores e educadores do futuro.",
         icon: "🎓",
@@ -225,7 +233,7 @@ const platformsData = [
         url: "https://inematds.github.io/SuperProf/"
     },
     {
-        id: 29,
+        id: 30,
         title: "TDS",
         description: "Transformação Digital Sustentável - Curso completo sobre transformação digital com foco em sustentabilidade.",
         icon: "🌱",
@@ -233,7 +241,7 @@ const platformsData = [
         url: "https://inematds.github.io/TDS/"
     },
     {
-        id: 30,
+        id: 31,
         title: "TikTok Shop",
         description: "TikTok Shop - Aprenda a vender e monetizar na plataforma TikTok Shop.",
         icon: "🛒",
@@ -241,7 +249,7 @@ const platformsData = [
         url: "https://inematds.github.io/tiktokshop"
     },
     {
-        id: 31,
+        id: 32,
         title: "VISION",
         description: "Plataforma VISION - Visão computacional e processamento de imagens com IA.",
         icon: "👁️",
