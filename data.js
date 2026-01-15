@@ -261,7 +261,7 @@ const platformsData = [
         title: "VisionPro - Construção Audiovisual com IA",
         description: "Método Prático de Construção Audiovisual com IA - Crie conteúdo audiovisual profissional usando IA como colaborador criativo.",
         icon: "🎬",
-        tags: ["Audiovisual", "IA", "Produção", "Vídeo"],
+        tags: ["Audiovisual", "IA", "Filmes", "Curtas", "Cinema"],
         url: "https://inematds.github.io/VisionPro"
     }
 ];
