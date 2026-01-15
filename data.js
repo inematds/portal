@@ -255,5 +255,13 @@ const platformsData = [
         icon: "👁️",
         tags: ["Visão", "IA", "Imagens"],
         url: "https://inematds.github.io/VISION/"
+    },
+    {
+        id: 33,
+        title: "VisionPro - Construção Audiovisual com IA",
+        description: "Método Prático de Construção Audiovisual com IA - Crie conteúdo audiovisual profissional usando IA como colaborador criativo.",
+        icon: "🎬",
+        tags: ["Audiovisual", "IA", "Produção", "Vídeo"],
+        url: "https://inematds.github.io/VisionPro"
     }
 ];
