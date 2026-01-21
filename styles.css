@@ -74,36 +74,39 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    background: rgba(0, 217, 255, 0.1);
-    border: 1px solid rgba(0, 217, 255, 0.3);
-    border-radius: 8px;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.5rem;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .community-badge:hover {
-    background: rgba(0, 217, 255, 0.2);
-    border-color: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.community-badge:hover span {
+    color: #fff;
 }
 
 .community-badge img {
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    object-fit: cover;
+    height: 100%;
+    max-height: 70px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: contain;
 }
 
 .community-badge span {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--text-secondary);
     white-space: nowrap;
+    text-align: center;
 }
 
 .header-content {
@@ -989,8 +992,18 @@ body {
 @media (max-width: 768px) {
     .community-badge {
         position: relative;
+        flex-direction: row;
+        gap: 0.5rem;
         margin-bottom: 1rem;
-        justify-content: center;
+    }
+
+    .community-badge img {
+        height: 40px;
+        max-height: 40px;
+    }
+
+    .community-badge span {
+        font-size: 0.7rem;
     }
 
     .logo {
