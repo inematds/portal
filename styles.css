@@ -66,6 +66,46 @@ body {
     box-shadow: 0 0 10px var(--primary-color);
 }
 
+.header .container {
+    position: relative;
+}
+
+.community-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(0, 217, 255, 0.1);
+    border: 1px solid rgba(0, 217, 255, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.community-badge:hover {
+    background: rgba(0, 217, 255, 0.2);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+}
+
+.community-badge img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.community-badge span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
 .header-content {
     text-align: center;
 }
@@ -947,6 +987,12 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .community-badge {
+        position: relative;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
     .logo {
         font-size: 2rem;
     }
