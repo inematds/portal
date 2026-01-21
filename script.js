@@ -1,6 +1,12 @@
 // Elementos do DOM
 const cardsGrid = document.getElementById('cardsGrid');
 const searchInput = document.getElementById('searchInput');
+const updatesList = document.getElementById('updatesList');
+const updatesHeader = document.getElementById('updatesHeader');
+const updatesToggle = document.getElementById('updatesToggle');
+
+// Estado da lista de atualizações
+let updatesExpanded = false;
 
 // Função para criar um card
 function createCard(platform) {
@@ -90,9 +96,67 @@ cardsGrid.addEventListener('click', (e) => {
     }
 });
 
+// Função para formatar data
+function formatDate(dateStr) {
+    const date = new Date(dateStr + 'T00:00:00');
+    return date.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+}
+
+// Função para criar item de atualização
+function createUpdateItem(update) {
+    const item = document.createElement('a');
+    item.className = 'update-item';
+    item.href = update.url;
+    item.target = '_blank';
+    item.rel = 'noopener noreferrer';
+
+    item.innerHTML = `
+        <span class="update-date">${formatDate(update.date)}</span>
+        <span class="update-type ${update.type}">${update.type}</span>
+        <span class="update-title">${update.title}</span>
+        <span class="update-arrow">→</span>
+    `;
+
+    return item;
+}
+
+// Função para renderizar atualizações
+function renderUpdates(expanded = false) {
+    if (!updatesList || !updatesData) return;
+
+    updatesList.innerHTML = '';
+    const itemsToShow = expanded ? 20 : 5;
+    const updates = updatesData.slice(0, itemsToShow);
+
+    updates.forEach(update => {
+        const item = createUpdateItem(update);
+        updatesList.appendChild(item);
+    });
+
+    if (expanded) {
+        updatesList.classList.add('expanded');
+        updatesToggle.textContent = 'Ver menos';
+    } else {
+        updatesList.classList.remove('expanded');
+        updatesToggle.textContent = 'Ver mais';
+    }
+}
+
+// Toggle para expandir/colapsar atualizações
+function toggleUpdates() {
+    updatesExpanded = !updatesExpanded;
+    renderUpdates(updatesExpanded);
+}
+
 // Inicializar o portal
 document.addEventListener('DOMContentLoaded', () => {
     renderCards(platformsData);
+    renderUpdates(false);
+
+    // Event listener para expandir/colapsar atualizações
+    if (updatesHeader) {
+        updatesHeader.addEventListener('click', toggleUpdates);
+    }
 
     // Adicionar foco no campo de busca com atalho (/)
     document.addEventListener('keydown', (e) => {
