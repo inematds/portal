@@ -79,8 +79,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.4rem;
-    padding: 0.5rem;
+    gap: 0.5rem;
+    padding: 1rem;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -95,14 +95,14 @@ body {
 
 .community-badge img {
     height: 100%;
-    max-height: 70px;
+    max-height: 140px;
     width: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     object-fit: contain;
 }
 
 .community-badge span {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     font-weight: 500;
     color: var(--text-secondary);
     white-space: nowrap;
