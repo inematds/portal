@@ -279,11 +279,20 @@ const platformsData = [
         icon: "🎬",
         tags: ["Audiovisual", "IA", "Filmes", "Curtas", "Cinema"],
         url: "https://inematds.github.io/VisionPro"
+    },
+    {
+        id: 36,
+        title: "WebP - Designer 2026",
+        description: "Web Presence na Era da IA - Aprenda a linguagem visual que as IAs entendem. Domine princípios de design para orientar IAs generativas.",
+        icon: "🎨",
+        tags: ["Design", "IA", "Web", "UI/UX", "2026"],
+        url: "https://inematds.github.io/webp"
     }
 ];
 
 // Histórico de atualizações recentes (mais recentes primeiro)
 const updatesData = [
+    { date: "2026-01-21", title: "WebP - Designer 2026", type: "novo", url: "https://inematds.github.io/webp" },
     { date: "2026-01-21", title: "AIWCF - Vibe Coding", type: "novo", url: "https://inematds.github.io/AIWCF" },
     { date: "2026-01-16", title: "GIPM - Projetos com IA Governada", type: "novo", url: "https://inematds.github.io/GIPM/" },
     { date: "2026-01-15", title: "VisionPro - Construção Audiovisual com IA", type: "atualizado", url: "https://inematds.github.io/VisionPro" },
