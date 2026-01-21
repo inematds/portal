@@ -271,5 +271,13 @@ const platformsData = [
         icon: "🎬",
         tags: ["Audiovisual", "IA", "Filmes", "Curtas", "Cinema"],
         url: "https://inematds.github.io/VisionPro"
+    },
+    {
+        id: 35,
+        title: "AIWCF - Vibe Coding",
+        description: "AI Website Creation Framework - Aprenda a criar websites profissionais usando IA com a metodologia Vibe Coding.",
+        icon: "✨",
+        tags: ["Vibe Coding", "Web", "IA", "Desenvolvimento"],
+        url: "https://inematds.github.io/AIWCF"
     }
 ];
