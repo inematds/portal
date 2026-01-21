@@ -49,7 +49,7 @@ body {
 .header {
     background: var(--gradient-dark);
     color: white;
-    padding: 3rem 0;
+    padding: 4rem 0;
     box-shadow: var(--shadow), 0 4px 0 var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     position: relative;
@@ -95,15 +95,15 @@ body {
 
 .community-badge img {
     height: 100%;
-    max-height: 140px;
+    max-height: 280px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 12px;
     object-fit: contain;
 }
 
 .community-badge span {
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--text-secondary);
     white-space: nowrap;
     text-align: center;
